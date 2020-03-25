@@ -1,0 +1,25 @@
+[debug] [2020-03-04T04:48:16.477Z] ----------------------------------------------------------------------
+[debug] [2020-03-04T04:48:16.478Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-04T04:48:16.478Z] CLI Version:   7.14.0
+[debug] [2020-03-04T04:48:16.479Z] Platform:      darwin
+[debug] [2020-03-04T04:48:16.479Z] Node Version:  v12.14.1
+[debug] [2020-03-04T04:48:16.479Z] Time:          Wed Mar 04 2020 12:48:16 GMT+0800 (Malaysia Time)
+[debug] [2020-03-04T04:48:16.479Z] ----------------------------------------------------------------------
+[debug] [2020-03-04T04:48:16.479Z] 
+[debug] [2020-03-04T04:48:16.485Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-04T04:48:16.486Z] > authorizing via signed-in user
+[debug] [2020-03-04T04:48:16.486Z] [iam] checking project fyp-pro-5d5dd for permissions ["firebase.projects.get"]
+[debug] [2020-03-04T04:48:16.487Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fyp-pro-5d5dd:testIamPermissions  
+
+[debug] [2020-03-04T04:48:17.783Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-04T04:48:17.785Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fyp-pro-5d5dd  
+ 
+[debug] [2020-03-04T04:48:17.985Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/sharifahhasyimah/programming/webhosting/fyp project'...
+[info] 
+[debug] [2020-03-04T04:48:17.989Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fyp-pro-5d5dd/webApps/-/config  
+ 
+[debug] [2020-03-04T04:48:18.757Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

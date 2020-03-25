@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+body{
+   height: 100%;
+   width: 100%;
+   overflow-x: hidden;
+   font-family: 'Lato' , sans-serif;
+}
+
+/*---------navbar----------*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.3)!important;
+
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+
+}
+.navbar-dark .navbar-nav .navbar-link {
+
+  color: white ;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+
+}
+
+
+.form-box{
+    width: 1250px;
+    height: 700px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    box-shadow: white;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+
+
+/*--------------landing page--------------*/
+.carousel-inner {
+    background: url(../img/b.png);
+    height: 1000px;
+    widows: 1000px;
+    padding-bottom: auto;
+}
+
+.carousel-inner h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+}
+.carousel-inner h2{
+    background-color: #CDD0D7;
+    color: black;
+}
+
+.table caption{
+    color: white;
+}
+
+.table{
+    margin: 50px;
+    padding: 50px;
+    width: 50px;
+
+
+}
+
+/*------------------footer---------------------*/
+
+footer{
+    background-color: white;
+    color: #051235;
+    padding-top: 2rem;
+    background-color: fixed;
+  }
+  
+  hr.light{
+    border-top: 1px solid #051235;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: .1rem;
+  }
+  
+  footer a{
+    color : #051235;
+  
+  }
+  
+  
+  hr.light-100{
+    border-top: 1px solid #051235;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  
+  }
